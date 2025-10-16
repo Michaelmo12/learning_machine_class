@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -m pip install:*)"
+      "Bash(python -m pip install:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)",
+      "Bash(venv/Scripts/python.exe:*)",
+      "Bash(rm:*)",
+      "Bash(C:/Users/User/AppData/Local/Programs/Python/Python313/python.exe -m venv venv)",
+      "Bash(mkdir:*)"
     ],
     "deny": [],
     "ask": []
